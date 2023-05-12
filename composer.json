@@ -1,0 +1,32 @@
+{
+    "name": "swag/plugin-skeleton",
+    "description": "Wishlist Modified Order",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Binu Abraham"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NtfxModifiedWishlist\\": "src/"
+        }
+    },
+    "require": {
+        "shopware/core": "^6.4",
+        "shopware/storefront": "^6.4"
+    },
+    "extra": {
+        "shopware-plugin-class": "NtfxModifiedWishlist\\NtfxModifiedWishlist",
+        "label": {
+            "pl-PL": "Wishlist Modified Order",
+            "en-GB": "Wishlist Modified Order"
+        },
+        "description": {
+            "pl-PL": "Wyświetlanie pozycji z listy życzeń uporządkowanych według daty dodania produktu do listy życzeń",
+            "en-GB": "Showing wishlist items ordered by the date the product was added to wishlist"
+        }
+    }
+}
